@@ -1,7 +1,9 @@
 :root {
     font-family: sans-serif;
 }
-
+/*  
+body style
+*/
 body {
     background: linear-gradient(180deg, #0c1415, #16363e);
     color: cyan;
