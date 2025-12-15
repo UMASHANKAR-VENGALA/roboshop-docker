@@ -150,7 +150,7 @@ app.get('/search/:text', (req, res) => {
     }
 });
 
-// set up Mongo
+// set up Mongo client
 async function mongoConnect() {
     try {
         const mongoURL = process.env.MONGO_URL || 'mongodb://mongodb:27017/catalogue';
