@@ -14,6 +14,8 @@ USER roboshop
 COPY --from=builder /opt/server /opt/server
 CMD ["node","server.js"]
 
+#server build
+
 # FROM node:20
 # WORKDIR /opt/server
 # COPY package.json .
